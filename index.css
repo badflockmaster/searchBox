@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    background: #494A5F;
+    font-family: "Microsoft YaHei","宋体","Segoe UI", "Lucida Grande",
+Helvetica, Arial,sans-serif, FreeSans, Arimo;
+}
+
+.container {
+    width: 500px;
+    margin: 20px auto;
+}
+
+.search {
+    padding: 20px 0;
+}
+
+form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+input, button{
+    outline: none;
+    border: none;
+}
+input {
+    display: block;
+    width: 100%;
+    height: 42px;
+    padding-left: 13px;
+}
+
+button {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    cursor: pointer;
+}
+.bar1 {
+    background: #a3d0c3;
+}
+
+.bar1 input {
+    border: 2px solid #7ba7ab;
+    border-radius: 5px;
+    color: #9e9c9c;
+    background: #f9f0da;
+}
+
+.bar1 button {
+    top: 0;
+    right: 0;
+    background: #7db7ab;
+    border-radius: 0 5px 5px 0;
+}
+
+.bar1 button:before {
+    content: "H";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #f9f0da;
+}
+.bar2 {
+    background: #dabb52;
+}
+
+.bar2 input, .bar2 button {
+    border-radius: 3px;
+}
+
+.bar2 input {
+    background: #f9f0da;
+}
+
+.bar2 button {
+    height: 26px;
+    width: 26px;
+    top: 8px;
+    right: 8px;
+    background: #f15b42;
+}
+
+.bar2 button:before {
+    content: "E";
+    font-family: FontAwesome;
+    color: rgba(255,255,255,0.8);
+    font-size: 20px;
+}
+.bar3 {
+    background: #f9f0da;
+}
+
+.bar3 form {
+    background: #a3d0c3;
+}
+
+.bar3 input, .bar3 button {
+    background: transparent;
+}
+
+.bar3 button {
+    top: 0;
+    right: 0;
+}
+
+.bar3 button:before{
+    content: "L";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #9f90da;
+}
+.bar4 {
+    background: #f15b42;
+}
+
+.bar4 form {
+    background: #f9f0da;
+    border-bottom: 2px solid #be290e;
+}
+
+.bar4 input, .bar4 button {
+    background: transparent;
+}
+
+.bar4 button {
+    top: 0;
+    right: 0;
+}
+
+.bar4 button:before {
+    content: "L";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #be290e;
+}
+
+.bar5 {
+    background: #683b4d;
+}
+
+.bar5 input, .bar5 button {
+    background: transparent;
+}
+
+.bar5 input {
+    border: 2px solid #f9f0da;
+}
+
+.bar5 button {
+    top: 0;
+    right: 0;
+}
+
+.bar5 button:before {
+    content: "O";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #f9f0da;
+}
+
+.bar5 input:focus {
+    border-color: #311c24;
+}
+
+.bar6 {
+    background: #f9f0da;
+}
+
+.bar6 input {
+    border: 2px solid #c5464a;
+    border-radius: 5px;
+    background: transparent;
+    top: 0;
+    left: 0;
+}
+
+.bar6 button {
+    background: #c5464a;
+    width: 60px;
+    top: 0;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.bar6 button:before {
+    content: "搜索";
+    font-size: 13px;
+    color: #f9f0da;
+}
+.bar7 {
+    background: #7ba7ab;
+}
+
+.bar7 form{
+    height: 42px;
+}
+
+.bar7 input {
+    width: 250px;
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background: #f9f0da;
+    transition: width 0.3s linear;
+    float: right;
+}
+
+.bar7 input:focus {
+    width: 300px;
+}
+
+.bar7 button {
+    background: none;
+    top: 0;
+    right: 0;
+}
+
+.bar7 button:before {
+    content: "W";
+    color: #324b4e;
+}
+.bar8 {
+    background: #b46381;
+}
+
+.bar8 form {
+    height: 42px;
+}
+.bar8 input, .bar8 button {
+    background: transparent;
+}
+
+.bar8 input{
+    border-bottom: 2px solid #f9f0da;
+    widht: 300px;
+    padding: 0 42px 0 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: rgba(255,255,255,0.7);
+}
+.bar8 button {
+    top: 0;
+    right: 0;
+}
+.bar8 button:before {
+    content: "O";
+    font-size: 16px;
+    color: #f9f0da;
+}
+
+.foot {
+    width: 300px;
+    height: 42px;
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+}
+.foot a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.foot a:hover {
+    color: #f9f0da;
+}
